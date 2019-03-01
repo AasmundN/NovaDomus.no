@@ -1,1 +1,2 @@
 PHP er oof. MySQL er oof hvis du bruker PHP med det
+Hei på du der
