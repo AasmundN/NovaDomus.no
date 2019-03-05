@@ -1,0 +1,133 @@
+
+.bakgrunn {
+    width: 100%;
+    height: 100%;
+    background-color: #F7F7F7;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-flow: wrap;
+    overflow: scroll;
+}
+
+#dropdownbtn_active {
+  text-decoration: none;
+  background-color: #F7F7F7;
+  color: #003f51;
+}
+
+.hei {
+  height: 100%;
+  align-items: center;
+  display: flex;
+  text-align: center;
+  text-decoration: none;
+  font-family: Helvetica;
+  color: #003f51;
+  background-color: #F7F7F7;
+  font-weight: bold;
+  font-size: 20px;
+  padding: 0px 0.7em 0px 0.7em;
+}
+
+.dropdown_container:hover #dropdownbtn{
+  cursor: pointer;
+}
+
+.dropdown_container:hover {
+  cursor: pointer;
+}
+
+#board {
+    padding-top: 6%;
+    width: 100%;
+    height: 195%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-flow: row wrap;
+    margin: 0 0 0 0;
+    background-color: rgba(250, 250, 250, 1.0);
+    overflow: scroll;
+}
+
+
+.board-member {
+    width: 27.5%;
+    height: 31%;
+    background-color: rgba(240, 240, 240, 1.0);
+    margin: 2% 2% 6% 2%;
+    border-radius: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: wrap;
+}
+
+.member-picture-con {
+    width: 100%;
+    height: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: nowrap;
+    margin: -5% 0 0 0;
+}
+
+.member-picture {
+    width: 55%;
+    height: auto;
+    border-radius: 15%;
+    border: 8px solid rgba(250, 250, 250, 1.0);
+    margin: -10% 0 0 0;
+    object-fit: cover;
+}
+
+.member-info {
+    width: 100%;
+    height: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: wrap;
+    font-family: Helvetica;
+}
+
+.member-name {
+    width: 90%;
+    height: 10%;
+    font-size: 18px;
+    font-weight: 700;
+    color: rgba(40, 40, 40, 1.0);
+    text-align: center;
+}
+
+.member-birth {
+    width: 51%;
+    height: 7.5%;
+    font-size: 14px;
+    font-style: italic;
+    text-align: center;
+    color: rgba(40, 40, 40, 1.0);
+}
+
+.member-position {
+    width: 51%;
+    height: 5%;
+    font-size: 11px;
+    font-style: italic;
+    text-align: center;
+    color: rgba(50, 50, 50, 1.0);
+}
+
+.member-bio {
+    width: 75%;
+    height: 77.5%;
+    font-family: Helvetica;
+    font-size: 17px;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}

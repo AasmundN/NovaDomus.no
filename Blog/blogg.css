@@ -1,0 +1,121 @@
+
+.blogg_container {
+  width: 85%;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-content: flex-start;
+  padding-top: 4%;
+  padding-bottom: 4%;
+}
+
+.blogg_innlegg_container {
+  flex-basis: 65%;
+  margin-right: 5%;
+}
+
+.blogg_innlegg {
+  width: 100%;
+}
+
+.blogg_innlegg {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+h3 {
+  font-size: 45px;
+  font-weight: bold;
+  font-family: Helvetica;
+  color: #2D2D2D;
+  user-select: none;
+  margin: 0px;
+}
+
+#tittel {
+  font-size: 45px;
+  font-weight: bold;
+  font-family: Helvetica;
+  color: #2D2D2D;
+  user-select: none;
+  text-decoration: none;
+}
+
+#tittel:hover {
+  cursor: pointer;
+}
+
+.blogg_preview {
+  width: 100%;
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+.blogg_tekst {
+  flex-basis: 70%;
+  margin-right: 2%;
+  max-height: 150px;
+  overflow: auto;
+  font-family: Helvetica;
+  font-size: 14px;
+  color: #585858;
+  line-height: 1.6;
+}
+
+#blog_img_container {
+  flex-grow: 1;
+}
+
+#blog_img {
+  width: auto;
+  max-height: 150px;
+}
+
+.blogg_dato {
+  font-family: Helvetica;
+  color: #2D2D2D;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.blogg_skille {
+  width: 100%;
+}
+
+.blogg_arkiv {
+  flex-basis: 25%;
+  height: 100%;
+  margin-top: 1%;
+  padding: 1% 1% 2% 1%;
+  border-left: 1px solid #9E9E9E;
+  padding-left: 2%;
+}
+
+.arkiv_link {
+  color: #FFB71D;
+  font-family: Helvetica;
+  text-decoration: none;
+  font-size: 20px;
+  line-height: 2;
+}
+
+.arkiv_link:hover {
+  text-decoration: underline;
+}
+
+.les_mer {
+  color: #FFB71D;
+  font-family: Helvetica;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+#archive {
+  color: #373737;
+}
+
+.les_mer:hover {
+ text-decoration: underline;
+}
